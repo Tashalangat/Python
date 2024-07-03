@@ -1,0 +1,24 @@
+# Grading
+Math=int(input("Enter score:"))
+English=int(input("Enter score:"))
+Science=int(input("Enter score:"))
+
+avarage=((Math+English+Science)/3)
+print(avarage)
+
+if avarage>70 and avarage <100:
+    grade=("A")
+    print(grade)
+elif avarage>60 and avarage<=70:
+    grade=("B")
+    print(grade)
+elif avarage>50 and avarage<=60:
+    grade=("C")
+    print(grade)
+elif avarage>40 and avarage<=50:
+    grade=("D")
+    print(grade)
+elif avarage>0 and avarage<=40:
+    grade=("Fail")
+    print(grade)
+    
